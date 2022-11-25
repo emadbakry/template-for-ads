@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for Ads</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="main-ad fixed">
+        <div class="main-container">
+            <div class="up">
+                <div class="close">
+                    <button id="close-ad" onclick="closeOffer()" type="button">X</button>
+                </div>
+                <div class="time">
+                    <div class="box">
+                        <div class="days">
+                            <div class="num">
+                                <span id="daysNum">00</span>
+                            </div>
+                            <div class="word">أيام</div>
+                        </div>
+                        <div class="hours">
+                             <div class="num">
+                                <span id="hoursNum">00</span>
+                             </div>
+                            <div class="word">ساعات</div>
+                        </div>
+                        <div class="minutes">
+                             <div class="num">
+                                <span id="minutesNum">00</span>
+                             </div>
+                            <div class="word">دقائق</div>
+                        </div>
+                        <div class="seconds">
+                             <div class="num">
+                                <span id="secondsNum">00</span>
+                             </div>
+                            <div class="word">ثواني</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="title">
+                    <h2>
+                        <span>!</span>
+                        ألحق الخصم
+                    </h2>
+                    <span class="coupon">Emad10</span>
+                </div>
+            </div>
+            <div class="mid">
+                <div class="img">
+                    <img src="./assets/ad-img.webp" alt="offer">
+                </div>
+            </div>
+            <div class="down">
+                <div class="closeOfferDiv">
+                    <button type="button" onclick="closeOffer()" class="closeOffer-bigBtn">
+                    إلغاء
+                    </button>
+                </div>
+                <div class="couponDiv">
+                    <button type="button" onclick="copyCoupon()" class="copyCoupon ">
+                        <span class="coupon" id="coupon">Emad10</span>
+                        <span id="cw">نسخ</span>
+                        <i class="copy-icon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
