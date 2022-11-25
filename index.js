@@ -1,4 +1,6 @@
 // Timer
+//  You can see it life here: emadbakry.github.io/template-for-ads/
+
 
 //  The coupon 'end day'
 let countDownDate = new Date("Dec 26, 2024 20:40:50").getTime()
