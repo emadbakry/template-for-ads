@@ -2,9 +2,9 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap');
 
-.fixed {
+/* .fixed {
     position: fixed;
-}
+} */
 .stoped {
     color: red;
 }
@@ -17,11 +17,11 @@
     padding: 10px;
     font-family: 'Cairo', sans-serif;
 }
-.closedByBtn {
+/* .closedByBtn {
     transition: 1s;
     opacity:0;
     left: -600px !important;
-}
+} */
 
 /* UP: title, timer, close btn */
 .up {
@@ -30,10 +30,21 @@
     justify-content: center;
     flex-wrap: wrap;
 }
-.up .close {
+/* .up .close {
     position: absolute;
     right: 0;
     background-color:transparent;
+} */
+.closeOfferAll {
+    transition:All 0.1s;
+    opacity: 0;
+    visibility: hidden;
+}
+.closeOfferAll [class*='Popup__WisepopContent'] {
+    opacity: 0;
+    transition: 0.2s;
+    margin-top: 100px;
+
 }
 .up .close #close-ad {
     background-color: transparent;

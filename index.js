@@ -49,8 +49,11 @@ try {
     let offerDiv = document.querySelector(".main-ad");
     var closeOffer = () => {
         // console.log(offerDiv)
-        offerDiv.classList.add("closedByBtn");
+        let wisePopRoot = document.getElementById("wisepops-root");
+        wisePopRoot.classList.add('closeOfferAll');
         setTimeout(() => {
+            offerDiv.classList.add("closedByBtn");
+            wisePopRoot.style.display = 'none';
             offerDiv.style.display = 'none';
         }, 500);
     };
