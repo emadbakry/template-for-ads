@@ -55,6 +55,7 @@ try {
             offerDiv.classList.add("closedByBtn");
             wisePopRoot.style.display = 'none';
             offerDiv.style.display = 'none';
+            console.log('offerclosedsuccesfully')
         }, 500);
     };
     
